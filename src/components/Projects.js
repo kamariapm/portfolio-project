@@ -23,6 +23,60 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div>
+          {/* Project 1 */}
+          <Card shadow={5} style={{ width: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                textAlign: "center",
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://reactjs.org/logo-og.png) center / cover"
+              }}
+            >
+              realDevsMeet
+            </CardTitle>
+            <CardText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              sagittis pellentesque lacus eleifend lacinia...
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>LiveDemo</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ width: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                textAlign: "center",
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://reactjs.org/logo-og.png) center / cover"
+              }}
+            >
+              realDevsMeet
+            </CardTitle>
+            <CardText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              sagittis pellentesque lacus eleifend lacinia...
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>LiveDemo</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
           <Card shadow={5} style={{ width: "350px", margin: "auto" }}>
             <CardTitle
               style={{
@@ -53,6 +107,61 @@ class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <div>
+          {/* Project 1 */}
+          <Card shadow={5} style={{ width: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                textAlign: "center",
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://reactjs.org/logo-og.png) center / cover"
+              }}
+            >
+              Dev Flashcards
+            </CardTitle>
+            <CardText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              sagittis pellentesque lacus eleifend lacinia...
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>LiveDemo</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 2 */}
+          <Card shadow={5} style={{ width: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                textAlign: "center",
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://reactjs.org/logo-og.png) center / cover"
+              }}
+            >
+              Dev Flashcards
+            </CardTitle>
+            <CardText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              sagittis pellentesque lacus eleifend lacinia...
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>LiveDemo</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
           <Card shadow={5} style={{ width: "350px", margin: "auto" }}>
             <CardTitle
               style={{
