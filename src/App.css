@@ -4,17 +4,25 @@
   src: url("https://fonts.googleapis.com/css?family=Major+Mono+Display");
 }
 
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@font-face {
+  font-family: "Indie Flower", cursive;
+  src: url("https://fonts.googleapis.com/css?family=Indie+Flower");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
 .header-color {
-  background: #000000; /* fallback for old browsers */
+  background: #ad5389; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #3c1053,
+    #ad5389
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #434343,
-    #000000
+    #3c1053,
+    #ad5389
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -28,7 +36,18 @@
 }
 
 .banner-text {
-  background: black;
+  /* background: black; */
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -65,10 +84,69 @@
   padding: 8px;
 }
 
-/* Header Component Font Styling */
+.projects-grid {
+  display: flex;
+}
 
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 30px;
+  padding-right: 2rem;
+}
+
+.contact-list a {
+  font-family: "Indie Flower", cursive;
+}
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+/* Resume page */
+.resume-right-col {
+  background: #27221f;
+  color: white;
+}
+
+/* Header Component Font Styling */
 .header-words {
   font-family: "Major Mono Display", monospace;
+}
+
+.Experience {
+  margin-top: 5%;
+  border: solid 2px #3c1053;
+  border-radius: 15px;
+}
+
+.Experience h1 {
+  font-family: "Source Code Pro", monospace;
 }
 
 /* Typewriter for Header */

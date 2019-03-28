@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import headshot from "../img/KInman.jpg";
 import Header from "./Header";
-import Experience from "./Experience";
+import Technologies from "./Technologies";
 
 class LandingPage extends Component {
   render() {
@@ -20,6 +20,7 @@ class LandingPage extends Component {
               className="avatar-img"
               alt="/"
             />
+            <div />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <h3>Atlanta, GA</h3>
@@ -61,7 +62,7 @@ class LandingPage extends Component {
             </div>
           </Grid>
           <div style={experienceDiv}>
-            <Experience />
+            <Technologies />
           </div>
         </div>
       </div>
