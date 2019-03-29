@@ -51,7 +51,7 @@ class AboutMe extends Component {
               <ListItem>
                 <ListItemContent>
                   <Icon name="star" />
-                  Lived in South America from 2013-2015: Uruguya, Ecuador &
+                  Lived in South America from 2013-2015: Uruguay, Ecuador &
                   Argentina
                 </ListItemContent>
               </ListItem>
