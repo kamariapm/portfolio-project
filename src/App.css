@@ -141,14 +141,21 @@
 
 .Experience {
   margin-top: 5%;
-  border: solid 2px #3c1053;
-  border-radius: 15px;
+  /* border: solid 2px #3c1053;
+  border-radius: 15px; */
 }
 
 .Experience h1 {
   font-family: "Source Code Pro", monospace;
 }
 
+.about-grid {
+  position: relative;
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 2%;
+}
 /* Typewriter for Header */
 
 .header-type h1 {

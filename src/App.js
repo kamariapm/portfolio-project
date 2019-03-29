@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import "./App.css";
 import Main from "./components/Main";
-import Resume from "./components/Resume";
+//import Resume from "./components/Resume";
 
 class App extends Component {
   render() {
@@ -31,7 +31,7 @@ class App extends Component {
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>
-              <Link to="/project">Projects</Link>
+              <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Drawer>
