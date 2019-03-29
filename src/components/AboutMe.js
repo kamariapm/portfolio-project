@@ -24,7 +24,7 @@ class AboutMe extends Component {
           <Cell>
             <p style={{ fontSize: "20px" }}>
               Hi, I'm Kamaria (pronounced "Kuh-mah-ree-yah"). I'm an Atlanta
-              native and love this city!
+              native and I love this city!
             </p>
             <br />
             <hr />

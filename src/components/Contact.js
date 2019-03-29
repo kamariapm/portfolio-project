@@ -67,6 +67,8 @@ class Contact extends Component {
                     <a
                       style={{ color: "black" }}
                       href="https://www.linkedin.com/in/kamariapm"
+                      rel="noopener no referrer"
+                      target="_blank"
                     >
                       <i
                         style={{ color: "#3949ab" }}
@@ -84,7 +86,9 @@ class Contact extends Component {
                     {" "}
                     <a
                       style={{ color: "black" }}
-                      href="https://www.twitter.com/maripeneh "
+                      href="https://www.twitter.com/maripeneh"
+                      rel="noopener no referrer"
+                      target="_blank"
                     >
                       <i
                         style={{ color: "#29b6f6" }}

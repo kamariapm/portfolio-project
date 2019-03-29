@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Header, Footer, Navigation, Drawer, Content } from "react-mdl";
 import { Link } from "react-router-dom";
 
 import "./App.css";
 import Main from "./components/Main";
+//import Footer from "./components/Footer";
 //import Resume from "./components/Resume";
 
 class App extends Component {
@@ -27,7 +28,13 @@ class App extends Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="Kamaria Inman">
+          <Drawer
+            title={
+              <Link style={{ textDecoration: "none", color: "black" }} to="/">
+                Kamaria Inman
+              </Link>
+            }
+          >
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>
@@ -39,6 +46,11 @@ class App extends Component {
             <div className="page-content" />
             <Main />
           </Content>
+          <Footer
+            size="mini"
+            className="footer-color"
+            style={{ textAlign: "center", color: "white" }}
+          />
         </Layout>
       </div>
     );
