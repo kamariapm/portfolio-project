@@ -37,6 +37,13 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             <h2>Experience</h2>
             <Experience
+              startYear={2019}
+              endYear={2020}
+              jobName="Accenture"
+              jobTitle="Application Developer"
+              jobDescription="Assist in managing large IT project using Scrum framework for a large data migration/integration. Implementing Salesforce for adding or updating customer information on to the Informatica Master Data Management platform, utilizing Informatica as Master Data Management platform (replacing SAP ECC) and Salesforce on the front end"
+            />
+            <Experience
               startYear={2018}
               endYear={2019}
               jobName="City of Refuge"
@@ -67,8 +74,15 @@ class Resume extends Component {
               schoolName="Interapt Skills"
               schoolDescription="Full Stack Web Development Bootcamp"
             />
+            <Education
+              startYear={2019}
+              endYear={2019}
+              schoolName="IC Agile"
+              schoolDescription="IC Agile Professional Certification"
+            />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
+            <Skills skill="Salesforce Platform App Builder" progress={50} />
             <Skills skill="JavaScript" progress={70} />
             <Skills skill="MongoDB" progress={60} />
             <Skills skill="NodeJS" progress={50} />
